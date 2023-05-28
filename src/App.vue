@@ -1,17 +1,13 @@
 <script setup>
-import Buttom from './components/buttom_up.vue'
+import Langue from './components/langue.vue'
 import Middle from './components/middle.vue'
-import Inputform from "@/components/inputform.vue";
 </script>
 
 <template>
   <div id="content">
-    <Buttom />
+    <Langue />
     <Middle />
-    <Inputform />
   </div>
-
-
 </template>
 
 <style scoped>

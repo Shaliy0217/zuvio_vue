@@ -1,7 +1,11 @@
+<script setup>
+import Inputform from "@/components/inputform.vue"
+</script>
 <template>
   <div class='logo'>
     <img src="../assets/new-logo@2x.png"/>
   </div>
+  <Inputform />
 
 </template>
 
